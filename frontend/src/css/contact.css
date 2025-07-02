@@ -1,0 +1,156 @@
+
+ .top-banner-contact {
+  background-image: url('../assets/firsta.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 400px;
+  width: 100%;
+}
+
+.banner-content-contact {
+  color: white;
+  text-align: left;
+  padding: 80px 60px;
+}
+
+#p2 {
+  font-size: 130px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact-section {
+  padding: 30px 0;
+}
+
+.contact-box {
+  height: 200px;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 5px #ccc;
+  background: white;
+}
+
+.contact-box h4 {
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.contact-box h2 {
+  font-size: 32px;
+  margin: 15px 0;
+}
+
+.contact-box p {
+  margin: 10px 0;
+}
+
+.form-background {
+  background-image: url('../assets/contactbackground.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 60px 0;
+}
+
+.form-heading {
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.form-title {
+  font-size: 60px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+form {
+  padding: 30px;
+  border-radius: 8px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  background-color: black;
+  color: rgb(15, 15, 15);
+  padding: 15px 50px;
+  border: none;
+  border-radius: 4px;
+}
+
+
+
+ @media (max-width: 768px) {
+  #p2 {
+    font-size: 60px;
+  }
+
+  .form-title {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  #p2 {
+    font-size: 45px;
+  }
+
+  .form-title {
+    font-size: 30px;
+  }
+
+  .contact-box h2 {
+    font-size: 24px;
+  }
+} 
+
+iframe{
+    margin-left: 6%;
+}
+
+ #contact-pg-head{
+    margin-top: 4%;
+    letter-spacing: 1.7px;
+    color: black;
+    margin-left: 4%;
+    font-size: 16px;
+    box-shadow: 1px 1px 1px 1px black;
+    width: 10%;
+    
+}
+#contactUs-pg{
+   font-size: 70px;
+   letter-spacing: -1.2px;
+   font-weight: bold;
+   margin-left: 3%;
+   margin-top: -1%;
+   
+}
+#branch1{
+    margin-left: 7%;
+}
+#branch2{
+    margin-left: 3%;
+}
+#branch3{
+    margin-left: 3%;
+}
+#boxbranch1{
+        box-shadow: 1px 1px 2px 2px rgb(226, 225, 226);
+       width: 40%;
+       height: 60px;
+}
+
+
+#button1{
+    margin-left: 1%;
+    color: white;
+    background-color: black;
+    width: 180px;
+    height: 60px;
+}
+
+

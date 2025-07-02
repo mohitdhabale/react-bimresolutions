@@ -1,0 +1,46 @@
+.toggle-btn-grp {
+    background-color: white;
+    color: black;
+    font-weight: 500;
+    border-color: black;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20%;
+}
+
+.toggle-btn-grp:hover {
+    background-color: black !important;
+    color: white !important;
+}
+
+.card-main-div {
+    /* width: 95%; */
+    margin-top: 50px;
+    border: none;
+    box-shadow: 0px 0px 2px black;
+
+    &:hover {
+        border: 2px solid black;
+        background-color: black;
+        color: white;
+    }
+}
+
+.service-pg-img-title {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+@media only screen and (max-width:768px) {
+    .btn-grid {
+        margin-top: 12px;
+    }
+
+    .card-main-div {
+        /* margin-left: 10px; */
+    }
+}

@@ -1,0 +1,48 @@
+.footer-bkg-img {
+    /* width: 200%; */
+    height: 550px;
+}
+
+#footer-contact-sec-div{
+    margin-left: 80px;
+    margin-top: 60px;
+}
+
+.footer-contact-section {
+    background-image: url(../assets/footer-2.jpg);
+    height: 550px;
+}
+
+.footer-contact-detail {
+    color: white;
+    font-weight: 300;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+#footer-get-direction-btn {
+    background-color: white;
+    color: black;
+    padding: 15px 20px;
+    border-radius: 0;
+    border: 1px solid black;
+    /* margin-top: 20px; */
+}
+#footer-get-direction-btn:hover{
+    background-color: #04566d;
+    color: white;
+    border: none
+}
+
+
+
+@media only screen and (max-width:768px) {
+    .footer-bkg-img{
+        display: none;
+    }
+
+    #footer-contact-sec-div{
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+}
